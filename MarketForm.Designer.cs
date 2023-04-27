@@ -28,109 +28,111 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dataGridUrunler = new System.Windows.Forms.DataGridView();
+            this.UrunIdTxt = new System.Windows.Forms.TextBox();
+            this.UrunAdTxt = new System.Windows.Forms.TextBox();
+            this.UrunAdetTxt = new System.Windows.Forms.TextBox();
+            this.UrunFiyatTxt = new System.Windows.Forms.TextBox();
+            this.EkleBtn = new System.Windows.Forms.Button();
+            this.SilBtn = new System.Windows.Forms.Button();
+            this.GuncelleBtn = new System.Windows.Forms.Button();
+            this.ListelemeBtn = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridUrunler)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dataGridUrunler
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(28, 40);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(486, 379);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridUrunler.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridUrunler.Location = new System.Drawing.Point(28, 40);
+            this.dataGridUrunler.Name = "dataGridUrunler";
+            this.dataGridUrunler.RowHeadersWidth = 51;
+            this.dataGridUrunler.RowTemplate.Height = 24;
+            this.dataGridUrunler.Size = new System.Drawing.Size(549, 379);
+            this.dataGridUrunler.TabIndex = 0;
             // 
-            // textBox1
+            // UrunIdTxt
             // 
-            this.textBox1.Location = new System.Drawing.Point(583, 72);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 1;
+            this.UrunIdTxt.Location = new System.Drawing.Point(632, 115);
+            this.UrunIdTxt.Name = "UrunIdTxt";
+            this.UrunIdTxt.Size = new System.Drawing.Size(100, 22);
+            this.UrunIdTxt.TabIndex = 1;
             // 
-            // textBox2
+            // UrunAdTxt
             // 
-            this.textBox2.Location = new System.Drawing.Point(583, 100);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 1;
+            this.UrunAdTxt.Location = new System.Drawing.Point(632, 143);
+            this.UrunAdTxt.Name = "UrunAdTxt";
+            this.UrunAdTxt.Size = new System.Drawing.Size(100, 22);
+            this.UrunAdTxt.TabIndex = 1;
             // 
-            // textBox3
+            // UrunAdetTxt
             // 
-            this.textBox3.Location = new System.Drawing.Point(583, 128);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 1;
+            this.UrunAdetTxt.Location = new System.Drawing.Point(632, 171);
+            this.UrunAdetTxt.Name = "UrunAdetTxt";
+            this.UrunAdetTxt.Size = new System.Drawing.Size(100, 22);
+            this.UrunAdetTxt.TabIndex = 1;
             // 
-            // textBox4
+            // UrunFiyatTxt
             // 
-            this.textBox4.Location = new System.Drawing.Point(583, 156);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 1;
+            this.UrunFiyatTxt.Location = new System.Drawing.Point(632, 199);
+            this.UrunFiyatTxt.Name = "UrunFiyatTxt";
+            this.UrunFiyatTxt.Size = new System.Drawing.Size(100, 22);
+            this.UrunFiyatTxt.TabIndex = 1;
             // 
-            // button1
+            // EkleBtn
             // 
-            this.button1.Location = new System.Drawing.Point(583, 184);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.EkleBtn.Location = new System.Drawing.Point(632, 227);
+            this.EkleBtn.Name = "EkleBtn";
+            this.EkleBtn.Size = new System.Drawing.Size(100, 23);
+            this.EkleBtn.TabIndex = 2;
+            this.EkleBtn.Text = "Ekle";
+            this.EkleBtn.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // SilBtn
             // 
-            this.button2.Location = new System.Drawing.Point(583, 213);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button1";
-            this.button2.UseVisualStyleBackColor = true;
+            this.SilBtn.Location = new System.Drawing.Point(632, 256);
+            this.SilBtn.Name = "SilBtn";
+            this.SilBtn.Size = new System.Drawing.Size(100, 23);
+            this.SilBtn.TabIndex = 2;
+            this.SilBtn.Text = "Sİl";
+            this.SilBtn.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // GuncelleBtn
             // 
-            this.button3.Location = new System.Drawing.Point(583, 242);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button1";
-            this.button3.UseVisualStyleBackColor = true;
+            this.GuncelleBtn.Location = new System.Drawing.Point(632, 285);
+            this.GuncelleBtn.Name = "GuncelleBtn";
+            this.GuncelleBtn.Size = new System.Drawing.Size(100, 23);
+            this.GuncelleBtn.TabIndex = 2;
+            this.GuncelleBtn.Text = "Güncelle";
+            this.GuncelleBtn.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // ListelemeBtn
             // 
-            this.button4.Location = new System.Drawing.Point(583, 271);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 23);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "button1";
-            this.button4.UseVisualStyleBackColor = true;
+            this.ListelemeBtn.Location = new System.Drawing.Point(632, 314);
+            this.ListelemeBtn.Name = "ListelemeBtn";
+            this.ListelemeBtn.Size = new System.Drawing.Size(100, 23);
+            this.ListelemeBtn.TabIndex = 2;
+            this.ListelemeBtn.Text = "Listele";
+            this.ListelemeBtn.UseVisualStyleBackColor = true;
+            this.ListelemeBtn.Click += new System.EventHandler(this.ListelemeBtn_Click);
             // 
             // MarketForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.ListelemeBtn);
+            this.Controls.Add(this.GuncelleBtn);
+            this.Controls.Add(this.SilBtn);
+            this.Controls.Add(this.EkleBtn);
+            this.Controls.Add(this.UrunFiyatTxt);
+            this.Controls.Add(this.UrunAdetTxt);
+            this.Controls.Add(this.UrunAdTxt);
+            this.Controls.Add(this.UrunIdTxt);
+            this.Controls.Add(this.dataGridUrunler);
             this.Name = "MarketForm";
             this.Text = "MarketForm";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.MarketForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridUrunler)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,14 +140,14 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.DataGridView dataGridUrunler;
+        private System.Windows.Forms.TextBox UrunIdTxt;
+        private System.Windows.Forms.TextBox UrunAdTxt;
+        private System.Windows.Forms.TextBox UrunAdetTxt;
+        private System.Windows.Forms.TextBox UrunFiyatTxt;
+        private System.Windows.Forms.Button EkleBtn;
+        private System.Windows.Forms.Button SilBtn;
+        private System.Windows.Forms.Button GuncelleBtn;
+        private System.Windows.Forms.Button ListelemeBtn;
     }
 }
