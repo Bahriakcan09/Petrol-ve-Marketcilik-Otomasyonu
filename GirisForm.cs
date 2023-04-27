@@ -16,5 +16,10 @@ namespace Petrol_ve_Marketcilik_Otomasyonu
         {
             InitializeComponent();
         }
+
+        private void LoginBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
